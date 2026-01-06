@@ -25,8 +25,8 @@ public class Prod {
     private String category;
     //@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "MM-dd-yyyy") This can also be done from here but it is given in the frontend UI. So, here I have commented this one.
     private Date releaseDate;
-    private Boolean prod_available;
-    private Integer quantity;
+    private Boolean productAvailable;
+    private Integer stockquantity;
     private String imageName;
     private String imageType;
 
